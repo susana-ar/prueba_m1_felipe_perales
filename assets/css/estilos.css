@@ -1,0 +1,153 @@
+html {
+  scroll-padding-top: 115px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bg-hero-code3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.acerca-de-mi {
+ background-color:rgb(21, 70, 134);
+}
+
+
+/* Mis Experiencias */
+
+#Mis-Experiencias .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#Mis-Experiencias {
+  background-color: rgb(21, 70, 134) !important;
+}
+
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
+
+.titulos-2 {
+  font-weight: bold;
+  font-size: 3em !important;
+}
+
+.datos-personales{
+  list-style-type: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img {
+    max-width: 100%;  
+    height: auto;   
+    min-width: 250px;
+  }
+}
+
+.header-portafolio {
+            margin-top: 7rem;
+            background-color: rgb(21, 70, 134);
+            color:white;
+            height: 12rem;
+}
+
+#carouselExampleIndicators {
+  max-width: 60%; 
+  margin: 0 auto;  
+}
+
+
+@media (max-width: 768px) {
+  #carouselExampleIndicators {
+    max-width: 95%; 
+  }
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgb(0, 0, 0);
+}
+
+.tamanio {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+#carouselExampleIndicators2 {
+  max-width: 60%; 
+  margin: 0 auto;  
+}
+
+
+@media (max-width: 768px) {
+  #carouselExampleIndicators2 {
+    max-width: 95%; 
+  }
+}
+
+#carouselExampleIndicators3 {
+  max-width: 60%; 
+  margin: 0 auto;  
+}
+
+
+@media (max-width: 768px) {
+  #carouselExampleIndicators3 {
+    max-width: 95%; 
+  }
+}
+
+
+.section-educacion {
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+#carouselExampleIndicators4 {
+  max-width: 60%; 
+  margin: 0 auto;  
+}
+
+
+@media (max-width: 768px) {
+  #carouselExampleIndicators4 {
+    max-width: 95%; 
+  }
+}
+
+#carouselExampleIndicators5 {
+  max-width: 60%; 
+  margin: 0 auto;  
+}
+
+
+@media (max-width: 768px) {
+  #carouselExampleIndicators5 {
+    max-width: 95%; 
+  }
+}
